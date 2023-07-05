@@ -75,7 +75,7 @@
                     <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
 
                         <div class="wrap-footer-item">
-                            <h3 class="item-header">đường giây nóng</h3>
+                            <h3 class="item-header">đường dây nóng</h3>
                             <div class="item-content">
                                 <div class="wrap-hotline-footer">
                                     <span class="desc">gọi cho chúng tôi miễn phí</span>

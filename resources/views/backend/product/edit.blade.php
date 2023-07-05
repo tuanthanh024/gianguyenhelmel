@@ -109,67 +109,67 @@
 
                                 <div class="tab-pane fade" id="details" role="tabpanel" aria-labelledby="details-tab">
                                     <div class="form-group mb-3">
-                                        <label>Color</label>
+                                        <label>Màu sắc</label>
                                         <input type="text" class="form-control" name="color"
                                             value="{{ $product->color }}">
                                     </div>
 
                                     <div class="form-group mb-3">
-                                        <label>Screen technology</label>
+                                        <label>Xuất xứ</label>
                                         <input type="text" class="form-control" name="screen_technology"
                                             value="{{ $product->screen_technology }}">
                                     </div>
 
                                     <div class="form-group mb-3">
-                                        <label>Operating system</label>
+                                        <label>Thương hiệu</label>
                                         <input type="text" class="form-control" name="os"
                                             value="{{ $product->os }}">
                                     </div>
 
                                     <div class="form-group mb-3">
-                                        <label>CPU</label>
+                                        <label>Chất liệu</label>
                                         <input type="text" class="form-control" name="cpu"
                                             value="{{ $product->os }}">
                                     </div>
 
                                     <div class="form-group mb-3">
-                                        <label>Resolution</label>
+                                        <label>Loại khóa cài</label>
                                         <input type="text" class="form-control" name="resolution"
                                             value="{{ $product->resolution }}">
                                     </div>
 
                                     <div class="form-group mb-3">
-                                        <label>Front camera</label>
+                                        <label>Đuôi gió</label>
                                         <input type="text" class="form-control" name="front_camera"
                                             value="{{ $product->front_camera }}">
                                     </div>
 
                                     <div class="form-group mb-3">
-                                        <label>Rear camera</label>
+                                        <label>Kính</label>
                                         <input type="text" class="form-control" name="rear_camera"
                                             value="{{ $product->rear_camera }}">
                                     </div>
 
                                     <div class="form-group mb-3">
-                                        <label>Ram</label>
+                                        <label>Lót trong</label>
                                         <input type="text" class="form-control" name="ram"
                                             value="{{ $product->ram }}">
                                     </div>
 
                                     <div class="form-group mb-3">
-                                        <label>Rom</label>
+                                        <label>Bảo hành</label>
                                         <input type="text" class="form-control" name="rom"
                                             value="{{ $product->rom }}">
                                     </div>
 
                                     <div class="form-group mb-3">
-                                        <label>Sim</label>
+                                        <label>Phụ kiện kèm theo</label>
                                         <input type="text" class="form-control" name="sim"
                                             value="{{ $product->sim }}">
                                     </div>
 
                                     <div class="form-group mb-3">
-                                        <label>Pin</label>
+                                        <label>Kích cỡ</label>
                                         <input type="text" class="form-control" name="pin"
                                             value="{{ $product->pin }}">
                                     </div>
@@ -177,7 +177,7 @@
 
                                 <div class="tab-pane fade" id="images" role="tabpanel" aria-labelledby="images-tab">
                                     <div class="form-group mb-3">
-                                        <label>Featured image</label>
+                                        <label>Ảnh nón</label>
                                         <input type="file" class="form-control" name="featured_image">
                                         <div class="row mt-3">
                                             <div class="col-sm-3 featured-image-container">
@@ -188,7 +188,7 @@
                                     </div>
 
                                     <div class="form-group mb-3">
-                                        <label>Product images</label>
+                                        <label>Ảnh chi tiết sản phẩm</label>
                                         <input type="file" class="form-control" name="product_images[]" multiple>
                                         <div class="row mt-3 product-image-container">
                                             @foreach ($product->productImages as $item)

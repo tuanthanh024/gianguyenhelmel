@@ -66,7 +66,7 @@
         <ul>
             <li class="item-link"><a href="{{ route('home') }}" class="link">trang chủ</a></li>
             <li class="item-link"><a href="{{ route('category_products', ['slug' => $product->category->slug]) }}"
-                    class="link">điện thoại
+                    class="link">
                     {{ $product->category->name }}</a></li>
             <li class="item-link"><span>{{ $product->name }}</span></li>
         </ul>
@@ -103,11 +103,11 @@
                     <h2 class="product-name">{{ $product->name }}</h2>
                     <div class="short-desc">
                         <ul>
-                            <li class="mb-2"><b>Công nghệ màn hình: </b>{{ $product->screen_technology }}</li>
-                            <li><b>Chip xử lý (CPU):</b> {{ $product->cpu }}</li>
-                            <li><b>Camera trước:</b> {{ $product->front_camera }}</li>
-                            <li><b>Camera sau:</b> {{ $product->rear_camera }}</li>
-                            <li class="see-more"><b>Cấu hình chi tiết <i class="fa fa-cog" aria-hidden="true"></i></b></li>
+                            <li class="mb-2"><b>Khối lượng: </b>{{ $product->screen_technology }}</li>
+                            <li><b>Chất liệu:</b> {{ $product->cpu }}</li>
+                            <li><b>Được chứng nhận:</b> {{ $product->front_camera }}</li>
+                            <li><b>Thương hiệu:</b> {{ $product->rear_camera }}</li>
+                            <li class="see-more"><b>Thông tin bổ sung:<i class="fa fa-cog" aria-hidden="true"></i></b></li>
                         </ul>
                     </div>
                     <div class="wrap-social">
@@ -158,7 +158,7 @@
                 <div class="advance-info">
                     <div class="tab-control normal">
                         <a href="#description" class="tab-control-item active">mô tả sản phẩm</a>
-                        <a href="#add_infomation" id="see-more" class="tab-control-item">cấu hình chi tiết</a>
+                        <a href="#add_infomation" id="see-more" class="tab-control-item">Thông số chi tiết</a>
                         <a href="#review" class="tab-control-item">đánh giá</a>
                     </div>
                     <div class="tab-contents">
@@ -175,43 +175,43 @@
                             <table class="shop_attributes">
                                 <tbody>
                                     <tr>
-                                        <th>Công nghệ màn hình</th>
+                                        <th>Xuất xứ</th>
                                         <td>{{ $product->screen_technology }}</td>
                                     </tr>
                                     <tr>
-                                        <th>Độ phân giải</th>
+                                        <th>Khoá cài</th>
                                         <td>{{ $product->resolution }}</td>
                                     </tr>
                                     <tr>
-                                        <th>Camera trước</th>
+                                        <th>Đuôi gió</th>
                                         <td>{{ $product->front_camera }}</td>
                                     </tr>
                                     <tr>
-                                        <th>Camera sau</th>
+                                        <th>Kính</th>
                                         <td>{{ $product->rear_camera }}</td>
                                     </tr>
                                     <tr>
-                                        <th>Hệ điều hành</th>
+                                        <th>Thương hiệu</th>
                                         <td>{{ $product->os }}</td>
                                     </tr>
                                     <tr>
-                                        <th>Chip xử lý (CPU)</th>
+                                        <th>Chất liệu</th>
                                         <td>{{ $product->cpu }}</td>
                                     </tr>
                                     <tr>
-                                        <th>Bộ nhớ trong (ROM)</th>
+                                        <th>Bảo hành</th>
                                         <td>{{ $product->rom }}</td>
                                     </tr>
                                     <tr>
-                                        <th>RAM</th>
+                                        <th>Lót trong</th>
                                         <td>{{ $product->ram }}</td>
                                     </tr>
                                     <tr>
-                                        <th>Sim</th>
+                                        <th>Phụ kiện kèm theo</th>
                                         <td>{{ $product->sim }}</td>
                                     </tr>
                                     <tr>
-                                        <th>Dung lượng pin/Sạc</th>
+                                        <th>Kích thước</th>
                                         <td>{{ $product->pin }}</td>
                                     </tr>
                                 </tbody>

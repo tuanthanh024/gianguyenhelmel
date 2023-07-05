@@ -17,7 +17,7 @@
         <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12 main-content-area">
             <div class="wrap-shop-control">
 
-                <h1 class="shop-title">điện thoại {{ $title }}</h1>
+                <h1 class="shop-title">{{ $title }}</h1>
 
                 <div class="wrap-right">
 
